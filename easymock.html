@@ -84,6 +84,64 @@
 						<option value="21">google-collect ---&gt; guava </option>
 					</select>
 	</div>
+	
+	<p>This is the set of functions mappings detected by the three algorithms under comparison. We show the result of each algorithm along with its instances in the source code (commits) if the mapping exists in the projects under study. We also provide the prevision and recall for the three algorithms.</p>
+	
+	<div class="panel panel-info">
+		<div class="panel-heading">Summary Report</div>
+		<div class="panel-body">
+
+			<table class="table">
+				<thead>
+				<tr>
+					<th>Algorithm</th>
+					<th>InValid Mapping</th>
+					<th>Valid Mapping</th>
+					<th>Precision</th>
+					<th>Recall</th>
+					<th>f-measure</th>
+					<th>Accuracy</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td>CP</td>
+					<td>34</td>
+					<td>30</td>
+					<td> 46.88%</td>
+					 <td>57.69%</td>
+					<td>51.73%</td>
+					<td>34.88%</td>
+
+				</tr>
+				<tr>
+					<td>FSLCS</td>
+					<td>8</td>
+					<td>26</td>
+					<td>76.47%</td>
+					<td>50.00%</td>
+					<td>60.46%</td>
+					<td> 43.33%</td>
+				</tr>
+			 
+
+				<tr>
+					<td>schaefer</td>
+					<td> 200</td>
+					<td>24</td>
+					<td> 10.71%</td>
+					<td>46.15%</td>
+					<td>17.39%</td>
+					<td>9.52%</td>
+				</tr>
+				</tbody>
+			</table>
+
+			<hr class="divider">
+			<strong>All verified Function mapping:</strong>  52		</div>
+	</div>
+	
+	
 
 	
 
@@ -8594,7 +8652,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#1</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-success btn-md text-center">Valid</li>
 				</ul>
 			</td>
@@ -8762,7 +8820,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#2</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-success btn-md text-center">Valid</li>
 				</ul>
 			</td>
@@ -8930,7 +8988,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#3</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-success btn-md text-center">Valid</li>
 				</ul>
 			</td>
@@ -9147,7 +9205,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#4</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-success btn-md text-center">Valid</li>
 				</ul>
 			</td>
@@ -9224,7 +9282,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#5</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-success btn-md text-center">Valid</li>
 				</ul>
 			</td>
@@ -9315,7 +9373,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#6</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-success btn-md text-center">Valid</li>
 				</ul>
 			</td>
@@ -9378,7 +9436,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#7</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-success btn-md text-center">Valid</li>
 				</ul>
 			</td>
@@ -9441,7 +9499,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#8</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-success btn-md text-center">Valid</li>
 				</ul>
 			</td>
@@ -9504,7 +9562,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#9</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-success btn-md text-center">Valid</li>
 				</ul>
 			</td>
@@ -9567,7 +9625,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#10</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-success btn-md text-center">Valid</li>
 				</ul>
 			</td>
@@ -9651,7 +9709,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#11</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-success btn-md text-center">Valid</li>
 				</ul>
 			</td>
@@ -9714,7 +9772,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#12</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-success btn-md text-center">Valid</li>
 				</ul>
 			</td>
@@ -9777,7 +9835,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#13</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-success btn-md text-center">Valid</li>
 				</ul>
 			</td>
@@ -9980,7 +10038,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#14</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-success btn-md text-center">Valid</li>
 				</ul>
 			</td>
@@ -10043,7 +10101,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#15</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-success btn-md text-center">Valid</li>
 				</ul>
 			</td>
@@ -10176,7 +10234,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#16</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-success btn-md text-center">Valid</li>
 				</ul>
 			</td>
@@ -10239,7 +10297,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#17</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-success btn-md text-center">Valid</li>
 				</ul>
 			</td>
@@ -10456,7 +10514,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#18</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-success btn-md text-center">Valid</li>
 				</ul>
 			</td>
@@ -10575,7 +10633,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#19</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-success btn-md text-center">Valid</li>
 				</ul>
 			</td>
@@ -10645,7 +10703,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#20</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-success btn-md text-center">Valid</li>
 				</ul>
 			</td>
@@ -10715,7 +10773,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#21</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -10778,7 +10836,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#22</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-success btn-md text-center">Valid</li>
 				</ul>
 			</td>
@@ -10862,7 +10920,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#23</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -10932,7 +10990,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#24</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -10996,7 +11054,7 @@ public abstract T should();
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#25</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -11060,7 +11118,7 @@ public abstract T should();
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#26</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-success btn-md text-center">Valid</li>
 				</ul>
 			</td>
@@ -11124,7 +11182,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#27</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -11188,7 +11246,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#28</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-success btn-md text-center">Valid</li>
 				</ul>
 			</td>
@@ -11252,7 +11310,7 @@ public static <t> org.easymock.Capture<t> newCapture();
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#29</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -11337,7 +11395,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#30</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-success btn-md text-center">Valid</li>
 				</ul>
 			</td>
@@ -11402,7 +11460,7 @@ public static void reset(java.lang.Object...);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#31</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -11607,7 +11665,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#32</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -11707,7 +11765,7 @@ public abstract <t> T when(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#33</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -11785,7 +11843,7 @@ public static <t> org.easymock.IExpectationSetters<t> expect(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#34</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -11858,7 +11916,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#35</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -11938,7 +11996,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#36</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -12012,7 +12070,7 @@ public static <t> T mock(java.lang.Class<t>);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#37</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -12086,7 +12144,7 @@ public static <t> T mock(java.lang.Class<t>);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#38</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -12158,7 +12216,7 @@ public static void replay(java.lang.Object...);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#39</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -12230,7 +12288,7 @@ public static void replay(java.lang.Object...);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#40</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -12297,7 +12355,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenThrow(java.lang.Thro
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#41</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -12365,7 +12423,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenThrow(java.lang.Thro
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#42</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -12446,7 +12504,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#43</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -12526,7 +12584,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#44</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -12607,7 +12665,7 @@ public abstract T answer(org.mockito.invocation.InvocationOnMock) throws java.la
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#45</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -12685,7 +12743,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenCallRealMethod();
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#46</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -12794,7 +12852,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#47</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -12909,7 +12967,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#48</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -12973,7 +13031,7 @@ public static void replay(java.lang.Object...);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#49</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -13042,7 +13100,7 @@ public abstract org.mockito.stubbing.Stubber doThrow(java.lang.Throwable...);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#50</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -13111,7 +13169,7 @@ public abstract org.mockito.stubbing.Stubber doThrow(java.lang.Class<!--? extend
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#51</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -13176,7 +13234,7 @@ public static <t> T mock(java.lang.Class<t>);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#52</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -13240,7 +13298,7 @@ public static void replay(java.lang.Object...);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#53</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -13308,7 +13366,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#54</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -13375,7 +13433,7 @@ public static <t> T mock(java.lang.Class<t>);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#55</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -13440,7 +13498,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T, T...);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#56</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -13506,7 +13564,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#57</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -13577,7 +13635,7 @@ public abstract org.easymock.IExpectationSetters<t> andReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#58</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -13644,7 +13702,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#59</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -13725,7 +13783,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#60</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -13964,7 +14022,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#61</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -14033,7 +14091,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#62</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -14115,7 +14173,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#63</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -14215,7 +14273,7 @@ public abstract org.easymock.IExpectationSetters<t> andReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#64</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -14281,7 +14339,7 @@ public abstract <t> T when(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#65</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -14396,7 +14454,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#66</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -14463,7 +14521,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#67</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -14529,7 +14587,7 @@ public abstract T answer(org.mockito.invocation.InvocationOnMock) throws java.la
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#68</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -14598,7 +14656,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#69</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -14663,7 +14721,7 @@ public abstract org.easymock.IExpectationSetters<t> andAnswer(org.easymock.IAnsw
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#70</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -14729,7 +14787,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#71</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -14795,7 +14853,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#72</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -14861,7 +14919,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#73</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -14929,7 +14987,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#74</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -14996,7 +15054,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#75</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -15064,7 +15122,7 @@ public abstract org.mockito.stubbing.Stubber doThrow(java.lang.Throwable);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#76</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -15133,7 +15191,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#77</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -15202,7 +15260,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#78</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -15270,7 +15328,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#79</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -15337,7 +15395,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#80</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -15407,7 +15465,7 @@ public abstract org.mockito.stubbing.Stubber doAnswer(org.mockito.stubbing.Answe
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#81</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -15474,7 +15532,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#82</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -15540,7 +15598,7 @@ public abstract <t> T when(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#83</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -15607,7 +15665,7 @@ public abstract <t> T when(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#84</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -15748,7 +15806,7 @@ public static void replay(java.lang.Object...);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#85</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -15817,7 +15875,7 @@ public abstract org.mockito.stubbing.Stubber doThrow(java.lang.Throwable);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#86</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -15884,7 +15942,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#87</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -15951,7 +16009,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#88</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -16016,7 +16074,7 @@ public abstract T answer(org.mockito.invocation.InvocationOnMock) throws java.la
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#89</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -16088,7 +16146,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#90</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -16156,7 +16214,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#91</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -16223,7 +16281,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#92</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -16291,7 +16349,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#93</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -16357,7 +16415,7 @@ public abstract <t> T when(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#94</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -16421,7 +16479,7 @@ public abstract T createMock(org.easymock.MockType);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#95</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -16486,7 +16544,7 @@ public abstract org.easymock.IExpectationSetters<t> andReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#96</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -16552,7 +16610,7 @@ public static <t> org.easymock.IExpectationSetters<t> expect(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#97</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -16619,7 +16677,7 @@ public abstract <t> T when(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#98</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -16685,7 +16743,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#99</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -16750,7 +16808,7 @@ public static void verify(java.lang.Object...);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#100</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -16815,7 +16873,7 @@ public static void replay(java.lang.Object...);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#101</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -16881,7 +16939,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T, T...);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#102</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -16949,7 +17007,7 @@ public abstract <t> T when(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#103</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -17017,7 +17075,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#104</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -17084,7 +17142,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#105</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -17152,7 +17210,7 @@ public abstract org.mockito.stubbing.Stubber doAnswer(org.mockito.stubbing.Answe
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#106</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -17220,7 +17278,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#107</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -17289,7 +17347,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#108</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -17353,7 +17411,7 @@ public abstract org.easymock.IExpectationSetters<t> andAnswer(org.easymock.IAnsw
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#109</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -17421,7 +17479,7 @@ public abstract <t> T when(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#110</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -17493,7 +17551,7 @@ public abstract <t> T when(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#111</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -17563,7 +17621,7 @@ public abstract <t> T when(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#112</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -17628,7 +17686,7 @@ public static void replay(java.lang.Object...);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#113</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -17695,7 +17753,7 @@ public abstract <t> T when(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#114</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -17763,7 +17821,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T, T...);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#115</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -17830,7 +17888,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T, T...);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#116</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -17899,7 +17957,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T, T...);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#117</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -17966,7 +18024,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#118</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -18032,7 +18090,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#119</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -18100,7 +18158,7 @@ public abstract <t> T when(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#120</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -18165,7 +18223,7 @@ public abstract <t> T when(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#121</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -18231,7 +18289,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#122</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -18299,7 +18357,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#123</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -18366,7 +18424,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#124</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -18436,7 +18494,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T, T...);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#125</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -18505,7 +18563,7 @@ public abstract org.mockito.stubbing.Stubber doAnswer(org.mockito.stubbing.Answe
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#126</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -18575,7 +18633,7 @@ public abstract org.mockito.stubbing.Stubber doAnswer(org.mockito.stubbing.Answe
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#127</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -18645,7 +18703,7 @@ public abstract org.mockito.stubbing.Stubber doAnswer(org.mockito.stubbing.Answe
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#128</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -18713,7 +18771,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#129</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -18777,7 +18835,7 @@ public static <t> T createMock(java.lang.Class<t>);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#130</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -18845,7 +18903,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#131</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -18914,7 +18972,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T, T...);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#132</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -18980,7 +19038,7 @@ public static <t> org.easymock.IExpectationSetters<t> expectLastCall();
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#133</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -19047,7 +19105,7 @@ public abstract <t> T when(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#134</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -19112,7 +19170,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#135</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -19184,7 +19242,7 @@ public abstract <t> T when(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#136</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -19252,7 +19310,7 @@ public abstract org.mockito.stubbing.Stubber doAnswer(org.mockito.stubbing.Answe
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#137</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -19316,7 +19374,7 @@ public abstract org.easymock.IExpectationSetters<t> once();
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#138</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -19383,7 +19441,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#139</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -19451,7 +19509,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#140</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -19520,7 +19578,7 @@ public abstract T answer(org.mockito.invocation.InvocationOnMock) throws java.la
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#141</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -19586,7 +19644,7 @@ public abstract T answer(org.mockito.invocation.InvocationOnMock) throws java.la
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#142</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -19658,7 +19716,7 @@ public abstract T answer(org.mockito.invocation.InvocationOnMock) throws java.la
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#143</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -19729,7 +19787,7 @@ public abstract T answer(org.mockito.invocation.InvocationOnMock) throws java.la
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#144</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -19799,7 +19857,7 @@ public abstract T answer(org.mockito.invocation.InvocationOnMock) throws java.la
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#145</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -19869,7 +19927,7 @@ public abstract T answer(org.mockito.invocation.InvocationOnMock) throws java.la
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#146</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -19940,7 +19998,7 @@ public abstract T answer(org.mockito.invocation.InvocationOnMock) throws java.la
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#147</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -20008,7 +20066,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#148</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -20074,7 +20132,7 @@ public static void replay(java.lang.Object...);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#149</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -20139,7 +20197,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#150</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -20205,7 +20263,7 @@ public static <t> org.easymock.IExpectationSetters<t> expectLastCall();
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#151</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -20272,7 +20330,7 @@ public static <t> org.easymock.IExpectationSetters<t> expect(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#152</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -20340,7 +20398,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#153</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -20407,7 +20465,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#154</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -20475,7 +20533,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#155</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -20543,7 +20601,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#156</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -20611,7 +20669,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#157</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -20680,7 +20738,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#158</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -20748,7 +20806,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#159</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -20817,7 +20875,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T, T...);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#160</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -20883,7 +20941,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#161</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -20949,7 +21007,7 @@ public abstract org.easymock.IExpectationSetters<t> andReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#162</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -21014,7 +21072,7 @@ public static <t> org.easymock.IExpectationSetters<t> expect(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#163</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -21078,7 +21136,7 @@ public abstract T createMock(org.easymock.IMocksControl);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#164</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -21142,7 +21200,7 @@ public abstract void reset();
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#165</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -21206,7 +21264,7 @@ public abstract <t> T when(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#166</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -21272,7 +21330,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenThrow(java.lang.Thro
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#167</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -21336,7 +21394,7 @@ public abstract void replay();
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#168</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -21412,7 +21470,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#169</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -21487,7 +21545,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#170</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -21575,7 +21633,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#171</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -21650,7 +21708,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#172</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -21725,7 +21783,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#173</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -21796,7 +21854,7 @@ public abstract T createMock(org.easymock.IMocksControl);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#174</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -21870,7 +21928,7 @@ public abstract <t> T when(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#175</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -21945,7 +22003,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#176</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -22009,7 +22067,7 @@ public abstract <t> T createMock(java.lang.Class<t>);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#177</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -22074,7 +22132,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenThrow(java.lang.Thro
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#178</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -22141,7 +22199,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#179</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -22205,7 +22263,7 @@ public void setDefaultMatcher(org.easymock.ArgumentsMatcher);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#180</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -22271,7 +22329,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#181</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -22353,7 +22411,7 @@ public abstract <t> T verify(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#182</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -22420,7 +22478,7 @@ public abstract org.mockito.BDDMockito$BDDMyOngoingStubbing<t> willReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#183</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -22487,7 +22545,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#184</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -22552,7 +22610,7 @@ public abstract org.easymock.IExpectationSetters<t> anyTimes();
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#185</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -22618,7 +22676,7 @@ public static void replay(java.lang.Object...);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#186</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -22688,7 +22746,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#187</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -22774,7 +22832,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#188</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -22842,7 +22900,7 @@ public static <t> T mock(java.lang.Class<t>);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#189</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -22907,7 +22965,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#190</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -22974,7 +23032,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#191</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -23042,7 +23100,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#192</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -23108,7 +23166,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#193</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -23177,7 +23235,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenThrow(java.lang.Thro
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#194</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -23241,7 +23299,7 @@ public static <t> T createStrictMock(java.lang.Class<t>);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#195</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -23308,7 +23366,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#196</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -23376,7 +23434,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#197</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -23447,7 +23505,7 @@ public static void replay(java.lang.Object...);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#198</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -23533,7 +23591,7 @@ public abstract <t> T when(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#199</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -23598,7 +23656,7 @@ public abstract T should();
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#200</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -23664,7 +23722,7 @@ public abstract T should();
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#201</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -23728,7 +23786,7 @@ public abstract org.easymock.IExpectationSetters<t> andReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#202</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -23796,7 +23854,7 @@ public abstract T should();
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#203</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -23867,7 +23925,7 @@ public abstract void shouldHaveNoMoreInteractions();
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#204</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -23934,7 +23992,7 @@ public abstract org.mockito.BDDMockito$BDDStubber willAnswer(org.mockito.stubbin
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#205</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -24001,7 +24059,7 @@ public abstract org.mockito.BDDMockito$BDDStubber willReturn(java.lang.Object, j
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#206</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -24065,7 +24123,7 @@ public static void replay(java.lang.Object...);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#207</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -24138,7 +24196,7 @@ public abstract void addListener(org.mockito.listeners.MockitoListener);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#208</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -24204,7 +24262,7 @@ public abstract org.mockito.BDDMockito$BDDStubber willReturn(java.lang.Object);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#209</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -24273,7 +24331,7 @@ public void start();
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#210</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -24338,7 +24396,7 @@ public void start();
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#211</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -24406,7 +24464,7 @@ public void start();
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#212</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -24473,7 +24531,7 @@ public abstract org.mockito.BDDMockito$BDDStubber willReturn(java.lang.Object);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#213</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -24540,7 +24598,7 @@ public abstract T should();
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#214</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -24609,7 +24667,7 @@ public abstract org.mockito.BDDMockito$BDDStubber willReturn(java.lang.Object);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#215</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -24677,7 +24735,7 @@ public abstract org.mockito.BDDMockito$BDDStubber willReturn(java.lang.Object);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#216</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -24750,7 +24808,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#217</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -24864,7 +24922,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#218</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -24937,7 +24995,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#219</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -25001,7 +25059,7 @@ public abstract T createNiceMock(java.lang.String);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#220</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -25093,7 +25151,7 @@ public static void verify(java.lang.Object...);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#221</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -25161,7 +25219,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#222</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -25226,7 +25284,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#223</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -25292,7 +25350,7 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 			<td class="col-sm-1">
 				<ul class="list-group">
 					<li class="list-group-item text-center">#224</li>
-					<li class="btn-warning btn-md text-center"> Schafer </li>
+					<li class="btn-warning btn-md text-center"> schaefer </li>
 					<li class="btn-danger btn-md text-center">not valid</li>
 				</ul>
 			</td>
@@ -25356,62 +25414,6 @@ public abstract org.mockito.stubbing.OngoingStubbing<t> thenReturn(T);
 
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        		</tbody>
 	</table>
-
-
-
-		<div class="panel panel-info">
-		<div class="panel-heading">Summary Report</div>
-		<div class="panel-body">
-
-			<table class="table">
-				<thead>
-				<tr>
-					<th>Algorithm</th>
-					<th>InValid Mapping</th>
-					<th>Valid Mapping</th>
-					<th>Precision</th>
-					<th>Recall</th>
-					<th>f-measure</th>
-					<th>Accuracy</th>
-				</tr>
-				</thead>
-				<tbody>
-				<tr>
-					<td>CP</td>
-					<td>34</td>
-					<td>30</td>
-					<td> 46.88%</td>
-					 <td>57.69%</td>
-					<td>51.73%</td>
-					<td>34.88%</td>
-
-				</tr>
-				<tr>
-					<td>FSLCS</td>
-					<td>8</td>
-					<td>26</td>
-					<td>76.47%</td>
-					<td>50.00%</td>
-					<td>60.46%</td>
-					<td> 43.33%</td>
-				</tr>
-			 
-
-				<tr>
-					<td>Schafer</td>
-					<td> 200</td>
-					<td>24</td>
-					<td> 10.71%</td>
-					<td>46.15%</td>
-					<td>17.39%</td>
-					<td>9.52%</td>
-				</tr>
-				</tbody>
-			</table>
-
-			<hr class="divider">
-			<strong>All verified Function mapping:</strong>  52		</div>
-	</div>
 
 
 
