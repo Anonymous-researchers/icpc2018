@@ -1,4 +1,4 @@
-# icpc2018 paper submittion dataset
+# icpc2018 paper submission dataset
 
 ## This is the demonstration dataset of our ICPC submitted paper. We provide the details of two migration rules. The link to the complete dataset will be updated in the paper upon its publication
 
